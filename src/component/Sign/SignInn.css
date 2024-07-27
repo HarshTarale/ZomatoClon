@@ -1,0 +1,85 @@
+.sign-fo{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-form{
+    width: 35vw;
+    padding: 2vw 3vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    border-radius: 8px;
+}
+.sign-form-m{
+    padding: 0%;
+    width: 100%;
+    box-shadow: none;
+    padding-bottom: 2vw;
+
+}
+.sign-form-label{
+    font-size: 3vw;
+    color: rgb(57, 57, 57);
+}
+#sign-form-email{
+
+    padding: 1vw;
+    border-radius: 5px;
+    border: solid 1.2px rgba(57, 57, 57, 0.484);
+    letter-spacing: 0.1vw;
+
+}
+#sign-form-email:focus{
+    border: solid 0.01vw rgb(0, 94, 255);
+    border-radius: 5px;
+}
+.sign-form-div1{
+    display: flex;
+    gap: 1vw;
+}
+.sign-form-div1 p a{
+    color: red;
+}
+.sign-form-btn1{
+    padding: 0.8vw;
+    border: none;
+    outline: none;
+    font-size: 1.4vw;
+    color: rgba(0, 0, 0, 0.749);
+    background-color: rgb(249, 235, 235);
+    border-radius: 5px;
+
+}
+.sign-form-btn1:focus{
+    background-color: red;
+    color: white;
+}
+.sign-form-p1{
+    transform: translateY(-1.7vw);
+    background-color: white;
+    margin: 0px 13vw;
+
+}
+                         /* signup with google btn */
+.sign-form-btn2{
+    padding: 0.6vw;
+    border: none;
+    outline: none;
+    font-size: 1.1vw;
+    color: rgba(0, 0, 0, 0.749);
+    border-radius: 5px;
+
+
+
+}
+.sign-form-p2{
+    font-size: 1.1vw;
+}
+.sign-form-p2 a{
+    color: red;
+}

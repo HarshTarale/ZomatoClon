@@ -1,0 +1,92 @@
+.footer{
+    width: 100vw;
+    background-color: #f8f8f8;
+    padding: 4vw 13vw;
+}
+.top-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.top-1 h3{
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-style: italic;
+}
+.footer-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-btn button{
+    width: 8vw;
+    height: 30px;
+    border: solid 1.6px rgba(0, 0, 0, 0.185) ;
+    background:transparent ;
+    border-radius: 5px;
+  color: rgba(0, 0, 0, 0.785);
+}
+.footer-btn button img{
+   width:20px;
+   
+}
+.footer-btn button .country{
+    width: 20vw;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 30px 17px rgba(0, 0, 0, 0.171);
+    display: flex;
+    padding: 1vw ;
+    border-radius: 3px;
+    transform: translateY(-65px);
+    visibility: hidden;
+
+}
+.footer-btn button:focus .country{
+    visibility: visible;
+}
+.country div{
+    width: 49%;
+    display: flex;
+    gap: 1vw;
+    
+}
+.top-2{
+    padding: 5vw 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-2 div li,a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.712);
+    margin-top: 10px;
+
+}
+.top-2 div li,a:hover{
+    color: rgba(0, 0, 0, 0.498);
+}
+.store{
+    padding: 5px 10px;align-items: center;
+    display: flex;
+    margin-top: 2vw;
+    background-color: rgb(7, 28, 50);
+    cursor: pointer;
+gap: 5px;
+font-size: 2vw;
+border-radius: 10px;
+}
+.store p{
+    font-size: 1vw;
+    color: white;
+
+}
+.store h6{
+    color: white;
+}
+.footer-bottem-p{
+    padding: 1vw 0px;
+    color: rgba(0, 0, 0, 0.473);
+    font-size: 1vw;
+}

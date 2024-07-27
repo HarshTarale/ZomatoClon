@@ -1,0 +1,70 @@
+
+
+.fssai-hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(identi.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  
+}
+.fssai-hero-content{
+    width: 60vw;
+    background-color: rgb(241, 241, 241);
+    outline:solid 1vw rgb(223, 223, 223) ;
+    border-radius: 7vw;
+}
+.fssai-hero-content-box1{
+
+    border-bottom:solid 0.5vw rgba(223, 223, 223, 0.826);
+    padding: 2vw 4vw;
+    text-align: center;
+    line-height: 1.5vw;
+
+}
+.fssai-hero-content-box1 h1{
+    color: rgb(239, 0, 0);
+    font-style: italic;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+.fssai-hero-content-box1 h3{
+    font-size: 1.9vw;
+    margin-bottom: 1vw;
+}
+.fssai-hero-content-box1 p{
+    color: rgb(106, 106, 106);
+}
+.fssai-hero-content-box2{
+    width: 100%;
+    padding: 2vw 2vw;
+    color: rgb(106, 106, 106);
+
+}
+.fssai-hero-content-box2-ol1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    margin-bottom: 2vw;
+}
+
+.fssai-hero-content-box2-ol1,.fssai-hero-content-box2-ol2 li{
+    list-style: none;
+
+}
+.fssai-hero-content-box2-ol2{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    margin-bottom: 2vw;
+
+}
+.fssai-hero-content-box2-ol2-div{
+    margin-bottom: 1vw;
+}

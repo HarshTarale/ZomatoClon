@@ -1,0 +1,97 @@
+.hero-Regula{
+    width:100vw ;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+align-items: center;
+background-color: rgb(235, 235, 235);
+gap: 1vw;
+}
+.hero-Regula1{
+    width: 52vw;
+
+height: 12vw;
+background-image: url(03meal.jpg);
+border-radius: 10px;
+background-position: center;
+background-size: cover;
+
+}
+.hero-Regula2{
+        width: 52vw;
+        padding: 1vw 0vw;
+    background-color: white;
+    border-radius: 10px;
+    border-top:solid 0.9vw rgb(174, 168, 158) ;
+
+}
+.hero-Regula2 h3{
+    margin: 1vw 2vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.hero-Regula2-p1{
+    margin: 1vw 2vw;
+    font-weight: bold;
+    font-size: 1.1vw;
+
+    color: rgb(54, 54, 54);
+
+}
+.hero-Regula2-p1 a{
+    color: blue;
+    font-weight: 100;
+}
+.hero-Regula2-p2{
+    margin: 1vw 2vw;
+    color: rgb(223, 2, 2);
+
+
+}
+.hero-Regula3{
+    width: 52vw;
+    padding: 2vw;
+background-color: white;
+border-radius: 10px;
+}
+.hero-Regula3 p,input{
+    margin-bottom: 1vw;
+}
+.hero-Regula4{
+    width: 52vw;
+border-radius: 10px;
+
+}
+.hero-Regula4 div,.hero-Regula4 p,.hero-Regula4 center{
+    font-size: 1vw;
+    margin-bottom: 1vw;
+   color: rgb(82, 82, 82); 
+
+}
+.hero-Regula4 div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-Regula4 div button{
+    padding: 0.6vw 2vw;
+    border: none ;
+    outline: none;
+    background-color: white;
+    box-shadow: 0px 1px 1px black;
+    border-radius:5px ;
+    font-size: 1.3vw;
+}
+.hero-Regula4 div button:hover{
+    background-color:rgb(243, 243, 243) ;
+}
+.hero-Regula4 div p{
+    font-size: 1.3vw;
+
+
+}
+.hero-Regula4 center h4{
+    font-size: 2vw;
+
+
+}

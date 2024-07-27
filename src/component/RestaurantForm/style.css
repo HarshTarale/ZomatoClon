@@ -1,0 +1,60 @@
+form {
+    width: 30vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3vw;
+    border-radius: 20px;
+    box-shadow: 0vw 5vw 5vw rgba(129, 129, 129, 0.148);
+    gap: 2svw;
+  }
+  
+
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2vw;
+    letter-spacing: 0.06vw;
+    word-spacing: 0.7vw;
+  }
+
+  input:focus{
+    border-color: rgb(60, 154, 255);
+    outline: solid  1px rgb(0, 123, 255);
+  }
+  #restaurantReview{
+    height: 5vw;
+    padding-left: 2vw;
+  }
+  
+
+  
+  button[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1vw;
+    font-size: 1.3vw;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: darkblue;
+  }
+  form p {
+    font-size: 1.1vw;
+  }
+  form p a{
+    color: rgb(105, 105, 255);
+
+  }
+  #restaurantContactNumber::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+  }
